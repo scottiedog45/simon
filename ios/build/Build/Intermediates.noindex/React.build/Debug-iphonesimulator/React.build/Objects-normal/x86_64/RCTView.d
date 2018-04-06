@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Views/RCTView.m \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Views/RCTView.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Views/RCTComponent.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Views/RCTAutoInsetsProtocol.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Views/RCTBorderDrawing.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Base/RCTConvert.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Views/RCTAnimationType.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  /Users/scottotoole/Desktop/simon/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/scottotoole/Desktop/simon/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/scottotoole/Desktop/simon/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Views/UIView+React.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Modules/RCTI18nUtil.h

@@ -1,0 +1,28 @@
+dependencies: \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Base/RCTModuleMethod.mm \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Base/RCTModuleMethod.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Base/RCTBridgeMethod.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Base/RCTNullability.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Base/RCTConvert.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Views/RCTAnimationType.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  /Users/scottotoole/Desktop/simon/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/scottotoole/Desktop/simon/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/scottotoole/Desktop/simon/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Base/RCTCxxConvert.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Base/RCTManagedPointer.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Base/RCTParserUtils.h \
+  /Users/scottotoole/Desktop/simon/node_modules/react-native/React/Profiler/RCTProfile.h
