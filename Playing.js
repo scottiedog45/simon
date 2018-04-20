@@ -4,6 +4,7 @@ import PlayButton from './PlayButton';
 import Logo from './Logo';
 import { StackNavigator } from 'react-navigation';
 import FourDots from './DotConfigurations/FourDots'
+import BackButton from './BackButton';
 
 class Playing extends React.Component {
   constructor(props) {
@@ -27,6 +28,7 @@ class Playing extends React.Component {
           <View>
           <FourDots />
           </View>
+          <BackButton />
       </View>
     );
   }
