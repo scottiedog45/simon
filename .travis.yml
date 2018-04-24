@@ -1,14 +1,14 @@
 language: node_js
 
 node_js: 
-  -node
+  node
 
 cache:
   directories:
     -node
 
 script:
-  -npm test
+  - npm test
 
 env: 
   - CI=true
