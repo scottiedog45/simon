@@ -13,7 +13,10 @@ class PlayButton extends React.Component {
         onPress = {() => {this.props.navigation.navigate('Game')}}
         >
         <Text style={styles.text}>
-          PLAY
+          <Text style={styles.p}>P</Text>
+          <Text style={styles.l}>L</Text>
+          <Text style={styles.a}>A</Text>
+          <Text style={styles.y}>Y</Text>
         </Text>
       </TouchableOpacity>
     );
@@ -39,7 +42,18 @@ const styles = StyleSheet.create({
   },
   text: {
     textAlign: 'center',
-    color: 'white',
     fontSize: 40
+  },
+  p: {
+    color: 'red'
+  },
+  l: {
+    color: 'blue'
+  },
+  a: {
+    color: 'green'
+  },
+  y: {
+    color: 'yellow'
   }
 });

@@ -19,22 +19,27 @@ class HomeScreen extends React.Component {
     return (
       <View style={styles.container}>
         <Logo />
+        <View style={styles.buttonContainer}>
         <TouchableOpacity
-          onPress={() => this.props.navigation.navigate('HighScores')}>
-          <Text>High Scores</Text>
+          onPress={() => this.props.navigation.navigate('HighScores')}
+          style={styles.buttons}>
+          <Text
+          style={styles.buttonText}>High Scores</Text>
         </TouchableOpacity>
         <TouchableOpacity
-          onPress={() => this.props.navigation.navigate('HowToPlay')}>
-          <Text>How To Play</Text>
+          onPress={() => this.props.navigation.navigate('HowToPlay')}
+          style={styles.buttons}>
+          <Text
+            style={styles.buttonText}>How To Play</Text>
         </TouchableOpacity>
         <TouchableOpacity
-          onPress={() => this.props.navigation.navigate('Options')}>
-          <Text>Options</Text>
+          onPress={() => this.props.navigation.navigate('Options')}
+          style={styles.buttons}>
+          <Text
+            style={styles.buttonText}>Options</Text>
         </TouchableOpacity>
-        
-        
-        <PlayButton
-        />
+        </View>
+        <PlayButton/>
       </View>
     );
   }
@@ -49,8 +54,24 @@ export default StackNavigator({
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'lightblue',
+    backgroundColor: 'white',
     alignItems: 'center',
     justifyContent: 'center',
+  }, 
+  buttons: {
+    height: 100,
+    width: 100,
+    borderRadius: 50,
+    borderStyle: 'solid',
+    borderWidth: 2,
+    borderColor: 'black',
+    marginBottom: 8
+  },
+  buttonText: {
+    marginTop: 40,
+    textAlign: 'center'
+  },
+  buttonContainer: {
+    marginBottom: 120
   }
 });

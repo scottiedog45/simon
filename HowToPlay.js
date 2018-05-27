@@ -3,6 +3,7 @@ import { StyleSheet, Text, View, Button, TouchableOpacity } from 'react-native';
 import PlayButton from './PlayButton';
 import Logo from './Logo';
 import { StackNavigator } from 'react-navigation';
+import BackButton from './BackButton';
 
 class HowToPlay extends React.Component {
 
@@ -12,10 +13,11 @@ class HowToPlay extends React.Component {
     return (
       <View style={styles.container}>
         <Logo />
-        <Text>
-          This is how you play!
+        <Text style={styles.text}>
+          It's just like the old-school simon game =). Touch the dots in the order that they flash. 
           </Text>
         <TouchableOpacity />
+        <BackButton />
       </View>
     );
   }
@@ -38,5 +40,11 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center'
+  },
+  text: {
+    maxWidth: 230,
+    fontSize: 20,
+    textAlign: 'center',
+    marginBottom: 50
   }
 });

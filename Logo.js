@@ -17,6 +17,6 @@ const styles = StyleSheet.create({
     color: 'black',
     fontSize: 40,
     position: 'absolute',
-    top: 60
+    top: 40
   }
 });

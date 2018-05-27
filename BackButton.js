@@ -13,19 +13,33 @@ class BackButton extends React.Component {
 
   render() {
     return (
-      <View>
+      <TouchableOpacity style={styles.button}
+        onPress={() => { this.props.navigation.navigate('Home') }}>
         <Text
-          onPress={() => {this.props.navigation.navigate('Home')}}
-          style={{
-            marginBottom: 40
-          }}
+          
+          style={styles.buttonText}
         >
           Back
           </Text>
-        <TouchableOpacity />
-      </View>
+        </TouchableOpacity>
     );
   }
 }
+
+const styles = StyleSheet.create({
+  button: {
+    height: 100,
+    width: 100,
+    borderRadius: 50,
+    borderStyle: 'solid',
+    borderWidth: 2,
+    borderColor: 'black',
+    marginBottom: 8
+  },
+  buttonText: {
+    marginTop: 40,
+    textAlign: 'center'
+  }
+});
 
 export default withNavigation(BackButton)

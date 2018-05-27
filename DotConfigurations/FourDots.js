@@ -233,12 +233,17 @@ export default class FourDots extends React.Component {
               disabled={this.state.disabled}
               style={{
                 backgroundColor: 'blue',
+                borderRadius: 60
+                
+                
               }}>
               <Animated.View
               style={{
+                borderRadius: 60,
                 position: 'relative',
-                width: 100,
-                height: 100,
+                overflow: 'hidden',
+                width: 120,
+                height: 120,
                 backgroundColor: blueColor,
               }}/>
             </TouchableOpacity>
@@ -246,13 +251,16 @@ export default class FourDots extends React.Component {
             disabled={this.state.disabled}
               onPress={()=>{pressRed()}}
               style={{  
+                marginLeft: 20,
                 backgroundColor: 'red',
+                borderRadius: 60
               }}>
               <Animated.View
                 style={{
+             borderRadius: 60,
                   position: 'relative',
-                  width: 100,
-                  height: 100,
+                  width: 120,
+                  height: 120,
                   backgroundColor: redColor,
                 }}
               />
@@ -267,12 +275,14 @@ export default class FourDots extends React.Component {
               onPress={() => {pressGreen() }}
               style={{
                 backgroundColor: 'green',
+                borderRadius: 60
               }}>
               <Animated.View
                 style={{
+             borderRadius: 60,
                   position: 'relative',
-                  width: 100,
-                  height: 100,
+                  width: 120,
+                  height: 120,
                   backgroundColor: greenColor,
                 }}/>
             </TouchableOpacity>
@@ -280,13 +290,16 @@ export default class FourDots extends React.Component {
             disabled={this.state.disabled}
               onPress={() => {pressYellow() }}
               style={{
+                borderRadius: 60,
+                marginLeft: 20,
                 backgroundColor: 'yellow',
               }}>
               <Animated.View
                 style={{
+             borderRadius: 60,
                   position: 'relative',
-                  width: 100,
-                  height: 100,
+                  width: 120,
+                  height: 120,
                   backgroundColor: yellowColor, 
                 }}/>
             </TouchableOpacity>
