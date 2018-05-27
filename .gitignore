@@ -23,6 +23,8 @@ yarn-error.log*
 # Xcode
 #
 build/
+!build/build.xml
+*.dgph
 *.pbxuser
 !default.pbxuser
 *.mode1v3
