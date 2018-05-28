@@ -5,7 +5,7 @@ export default class Logo extends React.Component {
   render() {
     return (     
         <Text style={styles.text}>
-          SIMON
+          simon
         </Text>
     );
   }
@@ -17,6 +17,7 @@ const styles = StyleSheet.create({
     color: 'black',
     fontSize: 40,
     position: 'absolute',
-    top: 40
+    top: 40,
+    fontFamily: 'BlackHanSans-Regular'
   }
 });

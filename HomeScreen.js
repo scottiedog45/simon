@@ -21,22 +21,10 @@ class HomeScreen extends React.Component {
         <Logo />
         <View style={styles.buttonContainer}>
         <TouchableOpacity
-          onPress={() => this.props.navigation.navigate('HighScores')}
-          style={styles.buttons}>
-          <Text
-          style={styles.buttonText}>High Scores</Text>
-        </TouchableOpacity>
-        <TouchableOpacity
           onPress={() => this.props.navigation.navigate('HowToPlay')}
           style={styles.buttons}>
           <Text
             style={styles.buttonText}>How To Play</Text>
-        </TouchableOpacity>
-        <TouchableOpacity
-          onPress={() => this.props.navigation.navigate('Options')}
-          style={styles.buttons}>
-          <Text
-            style={styles.buttonText}>Options</Text>
         </TouchableOpacity>
         </View>
         <PlayButton/>

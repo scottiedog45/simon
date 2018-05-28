@@ -5,6 +5,7 @@ import Logo from './Logo';
 import { StackNavigator } from 'react-navigation';
 import BackButton from './BackButton'
 
+
 class Options extends React.Component {
   constructor(props){
     super(props);
@@ -12,6 +13,7 @@ class Options extends React.Component {
       music: true,
       sound: true,
     }
+
   }
 
   toggleMusic = () => {
@@ -29,6 +31,9 @@ class Options extends React.Component {
   static navigationOptions = { header: null }
 
   render() {
+
+    
+
     return (
       <View style={styles.container}>
         <Logo />

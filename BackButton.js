@@ -16,10 +16,9 @@ class BackButton extends React.Component {
       <TouchableOpacity style={styles.button}
         onPress={() => { this.props.navigation.navigate('Home') }}>
         <Text
-          
           style={styles.buttonText}
         >
-          Back
+          back
           </Text>
         </TouchableOpacity>
     );
@@ -34,11 +33,13 @@ const styles = StyleSheet.create({
     borderStyle: 'solid',
     borderWidth: 2,
     borderColor: 'black',
-    marginBottom: 8
+    marginBottom: 8,
+    marginTop: 30
   },
   buttonText: {
-    marginTop: 40,
-    textAlign: 'center'
+    marginTop: 30,
+    textAlign: 'center',
+    fontSize: 30
   }
 });
 

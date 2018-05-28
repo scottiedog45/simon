@@ -28,7 +28,7 @@ class Playing extends React.Component {
           <View>
           <FourDots />
           </View>
-          <BackButton />
+          <BackButton style={styles.backButton}/>
       </View>
     );
   }
@@ -41,15 +41,14 @@ export default StackNavigator({
 });
 
 const styles = StyleSheet.create({
-  button: {
-    height: 100,
-    width: 100,
-    borderRadius: 100,
-    backgroundColor: 'green'
-  },
   container: {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center'
+  },
+  backButton: {
+    position: 'absolute',
+    marginTop: 50,
+    color: 'white'
   }
 });

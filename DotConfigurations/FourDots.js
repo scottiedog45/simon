@@ -115,11 +115,10 @@ export default class FourDots extends React.Component {
         return
       } else {
         Alert.alert(
-          'youFailed',
-          'try again!',
+          'You failed',
+          'Try again!',
         [
-          {text: 'start over', onPress:()=> {this.failureReset()}},
-          {text: 'second button', onPress: ()=> {console.log('secondbuttonwaspressed')}}
+          {text: 'start over', onPress:()=> {this.failureReset()}}
         ],
         {cancelable: false});
         return
@@ -131,8 +130,8 @@ export default class FourDots extends React.Component {
         this.animate();
       } else {
         Alert.alert(
-          'youFailed',
-          'try again!',
+          'You failed!',
+          'Try again!',
           [
             { text: 'start over', onPress: () => { this.failureReset()}}
           ],

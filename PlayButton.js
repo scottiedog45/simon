@@ -42,7 +42,10 @@ const styles = StyleSheet.create({
   },
   text: {
     textAlign: 'center',
-    fontSize: 40
+    paddingTop: 10,
+    letterSpacing: 3,
+    fontSize: 50,
+    fontFamily: 'BlackHanSans-Regular'
   },
   p: {
     color: 'red'
